@@ -3,5 +3,5 @@
 const difference = 45 - 33
 console.log(difference)
 
-const sum = 45 + 23 + 47
+const sum = 45 - 23 - 9
 console.log(sum)
