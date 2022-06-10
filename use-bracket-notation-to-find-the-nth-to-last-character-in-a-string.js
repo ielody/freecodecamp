@@ -2,6 +2,6 @@
 
 const lastName = "LoveLace"
 
-const secondToLastLetter = lastName[lastName.length - 3]
+const secondToLastLetter = lastName[lastName.length - 2]
 
 console.log(secondToLastLetter)
