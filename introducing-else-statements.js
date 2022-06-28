@@ -16,14 +16,14 @@ console.log(testElse(4))
 
 function testElse(val) {
   if (val > 5) {
-    result = "Bigger than 5";
+    result = "Bigger than 5"
   }
 
   else {
-    result = "5 or Smaller";
+    result = "5 or Smaller"
   }
 
-  return result;
+  return result
   }
 
   console.log(testElse(7))
