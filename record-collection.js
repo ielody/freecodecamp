@@ -33,9 +33,9 @@ const recordCollection = {
 //   return records
 // }
 
-const result = updateRecords(recordCollection, 5439, 'artist', 'ABBA')
+// const result = updateRecords(recordCollection, 5439, 'artist', 'ABBA')
 
-console.log(result)
+// console.log(result)
 
 
 function updateRecords(records, id, prop, value) {
@@ -52,5 +52,5 @@ function updateRecords(records, id, prop, value) {
 
 console.log(updateRecords(recordCollection, 5439, 'artist', 'ABBA'))
 
-let resu = updateRecords(recordCollection, 1245, 'tracks', "Banana, Melon, Cucumber")
-console.log(result)
+let resu = updateRecords(recordCollection, 1245, 'albumTitle', "Riptide")
+console.log(resu)
