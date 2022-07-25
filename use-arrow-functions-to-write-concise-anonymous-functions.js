@@ -5,7 +5,7 @@ var magi = function() {
   return new Date()
 }
 
-//2.
+//2. arrow function
 const magic = () => new Date()
 
 console.log(magic())
