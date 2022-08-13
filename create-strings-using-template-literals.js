@@ -9,7 +9,7 @@ const result = {
 // function makeList(arr) {
 //   const failureItems = []
 //   for(let i = 0; i < arr.length; i++)
-//   failureItems.push(`li class="text-warning">${arr[i]}</li>`)
+//   failureItems.push(`<li class="text-warning">${arr[i]}</li>`)
 //   return failureItems
 // }
 
@@ -18,7 +18,7 @@ const result = {
 
 
 function makeList(arr) {
-  const failureItems = arr.map(item => `li class="text-warning">${item}</li>`)
+  const failureItems = arr.map(item => `<li class="text-warning">${item}</li>`)
     return failureItems
   }
 
