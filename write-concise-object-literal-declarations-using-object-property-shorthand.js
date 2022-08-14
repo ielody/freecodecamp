@@ -7,7 +7,6 @@ const createPerson = (name, age, gender) => {
     gender
   }
 }
-
 console.log(createPerson("Wilson", 23, "male"))
 
 
